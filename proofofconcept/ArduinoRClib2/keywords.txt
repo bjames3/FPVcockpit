@@ -1,0 +1,46 @@
+#######################################
+# Syntax Coloring Map For TX
+#######################################
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+
+AIPin	KEYWORD1
+Channel	KEYWORD1
+Curve	KEYWORD1
+DIPin	KEYWORD1
+DualRates	KEYWORD1
+Expo	KEYWORD1
+Gyro	KEYWORD1
+PPMIn	KEYWORD1
+PPMOut	KEYWORD1
+ServoIn	KEYWORD1
+ServoOut	KEYWORD1
+Swashplate	KEYWORD1
+Timer1	KEYWORD1
+rc	KEYWORD1
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+
+apply	KEYWORD2
+update	KEYWORD2
+
+#######################################
+# Constants (LITERAL1)
+#######################################
+
+Type_Normal	LITERAL1
+Type_AVCS	LITERAL1
+Mode_Normal	LITERAL1
+Mode_AVCS	LITERAL1
+Type_H1	LITERAL1
+Type_H2	LITERAL1
+Type_HE	LITERAL1
+Type_HR3	LITERAL1
+Type_HN3	LITERAL1
+Type_H3	LITERAL1
+Type_H4	LITERAL1
+Type_H4X	LITERAL1
