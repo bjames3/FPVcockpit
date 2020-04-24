@@ -66,6 +66,7 @@ void setup()
 	rc::Timer1::init();
 	
 	// set default values, these depend on hardware configurations
+	// obtain these values from running GetCalibrationValues.ino
 	g_aPins[0].setCalibration( 89, 495,  842);  // aileron
 	g_aPins[1].setCalibration(208, 502,  853);  // elevator
 	g_aPins[2].setCalibration( 125, 454,  783); // throttle   (hi - lo)/2 + lo
