@@ -16,7 +16,8 @@
 
 #include <inttypes.h>
 
-#define PPMOUT_WORK_SIZE(channels) ((channels) + (((channels) + 1) * 4))
+//#define PPMOUT_WORK_SIZE(channels) ((channels) + (((channels) + 1) * 4))
+define PPMOUT_WORK_SIZE(channels) (6 * channels) + 4
 
 
 namespace rc
